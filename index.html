@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen M6 - Jordi Pujol</title>
+    <link rel="stylesheet" href="css/normalised.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <h2>Opcio 1 Examen M6 - UF1</h2>
+
+    <fieldset>
+
+        <legend>Examen M6 - Jordi Pujol</legend>
+
+        <form id="formulari">
+
+            <label>Text:</label>
+            <textarea name="text" id="text" required></textarea>
+
+            <br><br>
+
+            <label>Caracter:</label>
+            <input type="text" id="caracter" maxlength="1" required>
+
+            <br><br>
+            
+            <button type="button" onclick="buscarParaulesPerCaracter()">Buscar</button>
+
+        </form>
+
+    </fieldset>
+
+    <div id="resultat"></div>
+
+</body>
+</html>
